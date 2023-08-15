@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICON -->
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+
+    <!-- CUSTOM STYLES -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="designs.css">
+
+    <title>ToDoApp</title>
+
+</head>
+<body>
+    <div class="designContainer">
+        <p>Choose design: </p>
+        <button id="design-btn1" class="design-btn" data-design="white"></button>
+        <button id="design-btn2" class="design-btn" data-design="yellow"></button>
+        <button id="design-btn3" class="design-btn" data-design="brown"></button>
+        <button id="design-btn4" class="design-btn" data-design="red"></button>
+        <button id="design-btn5" class="design-btn" data-design="pink"></button>
+        <button id="design-btn6" class="design-btn" data-design="black"></button>
+    </div>
+    <div class="container">
+        <div id="coverImg">
+        <img src="assets/white.png">
+        </div>
+        <input type="text" id="input-field" class="white yellow pink brown red black" placeholder="Bake banana bread...">
+        <button id="add-button" class="white yellow pink brown red black">Add</button>
+        <ul id="todo-list">
+        </ul>
+    </div>
+    <script src="script.js" type="module"></script>
+    <script src="designs.js" type="module"></script>
+
+</body>
+</html>

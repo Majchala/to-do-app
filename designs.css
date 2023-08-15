@@ -1,0 +1,226 @@
+.design-btn {
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    background-color: transparent !important;
+}
+
+.design-btn:hover {
+    border: dotted black 1px !important;
+}
+
+input {
+    background-color: white !important;
+}
+
+/* WHITE (DEFAULT) DESIGN */
+#design-btn1 {
+    background-image: url("assets/white.png");
+}
+
+.white {
+    background-color: white;
+}
+
+.white button {
+    background-color: #CCF2E2;
+    color: #333;
+}
+
+.white button:hover {
+    background-color: #FBF2AA;
+}
+
+.white input {
+    border: solid 4px #CCF2E2
+}
+
+.white input:focus {
+    border: #FBF2AA solid 4px;
+}
+
+.white ul li {
+    background-color: white;;
+}
+
+.white ul li:hover {
+    background-color: #FBF2AA;
+}
+
+/* YELLOW DESIGN */
+
+#design-btn2 {
+    background-image: url("assets/yellow.png");    
+}
+
+.yellow {
+    background-color: #8EA3E2;
+}
+
+.yellow button {
+    background-color: #F7EF87;
+    color: #333;
+}
+
+.yellow button:hover {
+    background-color: #E88C9D;
+}
+
+.yellow input {
+    border: solid 4px #F7EF87
+}
+
+.yellow input:focus {
+    border: #E88C9D solid 4px;
+}
+
+.yellow ul li {
+    background-color: white;;
+}
+
+.yellow ul li:hover {
+    background-color: #F7EF87;
+}
+
+/* BROWN DESIGN */
+
+#design-btn3 {
+    background-image: url("assets/brown.png");    
+}
+
+.brown {
+    background-color: #5F4835;
+}
+
+.brown button {
+    background-color: #DDA46C;
+    color: #333;
+}
+
+.brown button:hover {
+    background-color: #060402;
+    color: white;
+}
+
+.brown input {
+    border: solid 4px #DDA46C;
+}
+
+.brown input:focus {
+    border: #060402 solid 4px;
+}
+
+.brown ul li {
+    background-color: white;;
+}
+
+.brown ul li:hover {
+    background-color: #DDA46C;
+}
+
+/* RED DESIGN */
+
+#design-btn4 {
+    background-image: url("assets/red.png");    
+}
+
+.red {
+    background-color: #FD5C6F;
+}
+
+.red button {
+    background-color: #D22239;
+    color: white;
+}
+
+.red button:hover {
+    background-color: #060402;
+    color: white;
+}
+
+.red input {
+    border: solid 4px #D22239;
+}
+
+.red input:focus {
+    border: #060402 solid 4px;
+}
+
+.red ul li {
+    background-color: white;;
+}
+
+.red ul li:hover {
+    background-color: #D22239;
+}
+
+
+/* PINK DESIGN */
+#design-btn5 {
+    background-image: url("assets/pink.png");    
+}
+
+.pink {
+    background-color: #FE99C1;
+}
+
+.pink button {
+    background-color: #333;
+    color: white;
+}
+
+.pink button:hover {
+    background-color: #060402;
+    color: #FFD9F5;
+}
+
+.pink input {
+    border: solid 4px #333;
+}
+
+.pink input:focus {
+    border: #BB5B82 solid 4px;
+}
+
+.pink ul li {
+    background-color: white;;
+}
+
+.pink ul li:hover {
+    background-color: #FFD9F5;
+}
+
+/* BLACK DESIGN */
+#design-btn6 {
+    background-image: url("assets/black.png");    
+}
+
+.black {
+    background-color: black;
+}
+
+.black button {
+    background-color: #F1C650;
+    color: #333;
+}
+
+.black button:hover {
+    background-color: #F27281;
+    color: #333;
+}
+
+.black input {
+    border: solid 4px #F1C650;
+}
+
+.black input:focus {
+    border: #F27281 solid 4px;
+}
+
+.black ul li {
+    background-color: white;;
+}
+
+.black ul li:hover {
+    background-color: #F1C650;
+}
